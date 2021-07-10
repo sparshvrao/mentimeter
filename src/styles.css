@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: grey;
+  width: 30%;
+  overflow-y: auto;
+}
+
+.main {
+  background-color: red;
+  width: 70%;
+}
+
+.card {
+  margin: 10% 10% 10% 20%;
+  position: relative;
+}
+
+.card .slideNum {
+  position: absolute;
+  top: 50%;
+  left: -20%;
+  transform: translate(0%, -50%);
+  color: white;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: black;
+}
